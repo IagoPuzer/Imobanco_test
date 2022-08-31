@@ -1,0 +1,83 @@
+{
+"client_client": [
+	{
+		"id" : "305a1418-ea45-4210-9eb3-132d81e3fb18",
+		"created_at" : "2022-08-24T19:26:45.813Z",
+		"phone" : "+55 31 93371 8165",
+		"email" : "tanya01@example.com",
+		"name" : "Imobanco Pagamentos S.A.",
+		"document" : "24103314000188"
+	},
+	{
+		"id" : "23b58239-f864-4cc2-abcd-0c5b96772b30",
+		"created_at" : "2022-08-24T19:26:48.825Z",
+		"phone" : "+55 (31) 9 0247 2290",
+		"email" : "charles08@example.net",
+		"name" : "Imobanco da silva",
+		"document" : "13543402480"
+	},
+	{
+		"id" : "bb9d3de9-5b2f-4189-90da-e3b292c5e3a5",
+		"created_at" : "2022-08-24T19:26:48.873Z",
+		"phone" : "+55 (078) 96242 7596",
+		"email" : "millertiffany@example.com",
+		"name" : "Imobanco LTDA",
+		"document" : "74910037000193"
+	},
+	{
+		"id" : "a55dd0f9-6843-49a7-8d92-54edc6604296",
+		"created_at" : "2022-08-24T19:26:54.741Z",
+		"phone" : "+55 (80) 95239-3441",
+		"email" : "garrettjacob@example.net",
+		"name" : "James Gross",
+		"document" : "50607615842"
+	},
+	{
+		"id" : "55694d01-4fdd-4fe0-b4d8-afb7362145d6",
+		"created_at" : "2022-08-24T19:26:54.759Z",
+		"phone" : "+55 28 91180-9746",
+		"email" : "dpeterson@example.net",
+		"name" : "Steven Harris",
+		"document" : "66779051870"
+	},
+	{
+		"id" : "ea49b32d-714a-431f-87f1-1bb1b1d09d05",
+		"created_at" : "2022-08-24T19:27:18.690Z",
+		"phone" : "+55 (94) 9 4917 2111",
+		"email" : "martinezkevin@example.com",
+		"name" : "Christopher Ward",
+		"document" : "35865891740"
+	},
+	{
+		"id" : "817c96b6-b83c-4747-9d1e-b0056ebca3ad",
+		"created_at" : "2022-08-24T19:27:18.759Z",
+		"phone" : "+55 24 97470 7956",
+		"email" : "kevingreen@example.org",
+		"name" : "Joseph Rice",
+		"document" : "72116566703"
+	},
+	{
+		"id" : "dfd62c47-397f-4633-9df8-a6a5a233ba6d",
+		"created_at" : "2022-08-24T19:27:18.800Z",
+		"phone" : "+55 72 9 6606-4771",
+		"email" : "mirandadelgado@example.net",
+		"name" : "Jeffery Lopez",
+		"document" : "25278441704"
+	},
+	{
+		"id" : "f88084fd-99dc-4717-ae63-55090d617add",
+		"created_at" : "2022-08-24T19:27:18.842Z",
+		"phone" : "+55 (92) 93671 7133",
+		"email" : "joanne81@example.net",
+		"name" : "Kelsey Mahoney",
+		"document" : "98204771746"
+	},
+	{
+		"id" : "20873080-d5bb-4e77-a6ba-8ca0083b4b9f",
+		"created_at" : "2022-08-24T19:27:18.884Z",
+		"phone" : "+55 73 9 3522-0959",
+		"email" : "davidhall@example.org",
+		"name" : "Christopher Davis",
+		"document" : "74855686042"
+	}
+]}

@@ -1,0 +1,269 @@
+{
+"transactions" : [
+		{
+			"parcela" : 1,
+			"amount" : 1473334,
+			"description" : "parcelas",
+			"due_date" : "2023-01-24",
+			"name" : "Quadra 1 - Lote 1",
+			"payer_id" : "bb9d3de9-5b2f-4189-90da-e3b292c5e3a5",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:26:57.670Z",
+			"id" : "8b56fda9-03b4-4651-ac13-c2973401538f"
+		},
+		{
+			"parcela" : 2,
+			"amount" : 1473333,
+			"description" : "parcelas",
+			"due_date" : "2023-02-24",
+			"name" : "Quadra 1 - Lote 1",
+			"payer_id" : "bb9d3de9-5b2f-4189-90da-e3b292c5e3a5",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:26:57.676Z",
+			"id" : "eb3bd660-9748-4c69-84c0-db3c868dd4b8"
+		},
+		{
+			"parcela" : 3,
+			"amount" : 1473333,
+			"description" : "parcelas",
+			"due_date" : "2023-03-24",
+			"name" : "Quadra 1 - Lote 1",
+			"payer_id" : "bb9d3de9-5b2f-4189-90da-e3b292c5e3a5",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:26:57.682Z",
+			"id" : "1fb92b60-914f-46ea-8a1b-238e7e850a1f"
+		},
+		{
+			"parcela" : 1,
+			"amount" : 1473334,
+			"description" : "parcelas",
+			"due_date" : "2023-01-24",
+			"name" : "Quadra 1 - Lote 2",
+			"payer_id" : "a55dd0f9-6843-49a7-8d92-54edc6604296",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:26:57.712Z",
+			"id" : "9442eb8f-5bad-4228-b1e6-6531c07d369d"
+		},
+		{
+			"parcela" : 2,
+			"amount" : 1473333,
+			"description" : "parcelas",
+			"due_date" : "2023-02-24",
+			"name" : "Quadra 1 - Lote 2",
+			"payer_id" : "a55dd0f9-6843-49a7-8d92-54edc6604296",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:26:57.722Z",
+			"id" : "55f94cbe-1a52-4273-8c0e-b64079fa8005"
+		},
+		{
+			"parcela" : 3,
+			"amount" : 1473333,
+			"description" : "parcelas",
+			"due_date" : "2023-03-24",
+			"name" : "Quadra 1 - Lote 2",
+			"payer_id" : "a55dd0f9-6843-49a7-8d92-54edc6604296",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:26:57.732Z",
+			"id" : "2a09502d-9e4d-40fd-a813-f14f572c5528"
+		},
+		{
+			"parcela" : 1,
+			"amount" : 1473334,
+			"description" : "parcelas",
+			"due_date" : "2023-01-24",
+			"name" : "Quadra 1 - Lote 3",
+			"payer_id" : "55694d01-4fdd-4fe0-b4d8-afb7362145d6",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:26:57.775Z",
+			"id" : "d8e321c0-754b-408a-b28b-e2c75168a2c6"
+		},
+		{
+			"parcela" : 2,
+			"amount" : 1473333,
+			"description" : "parcelas",
+			"due_date" : "2023-02-24",
+			"name" : "Quadra 1 - Lote 3",
+			"payer_id" : "55694d01-4fdd-4fe0-b4d8-afb7362145d6",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:26:57.783Z",
+			"id" : "c74aded1-79fa-443a-b1b5-203a8937060c"
+		},
+		{
+			"parcela" : 3,
+			"amount" : 1473333,
+			"description" : "parcelas",
+			"due_date" : "2023-03-24",
+			"name" : "Quadra 1 - Lote 3",
+			"payer_id" : "55694d01-4fdd-4fe0-b4d8-afb7362145d6",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:26:57.789Z",
+			"id" : "b5dc84a1-fae7-45f1-ab57-acfc4065253d"
+		},
+		{
+			"parcela" : 2,
+			"amount" : 100000,
+			"description" : "Aluguel com split",
+			"due_date" : "2022-09-24",
+			"name" : "Aluguel casa amarela Nº 1",
+			"payer_id" : "bb9d3de9-5b2f-4189-90da-e3b292c5e3a5",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:27:00.762Z",
+			"id" : "9fa2a304-ef60-4879-ad83-a7aa108dbff6"
+		},
+		{
+			"parcela" : 3,
+			"amount" : 100000,
+			"description" : "Aluguel com split",
+			"due_date" : "2022-10-24",
+			"name" : "Aluguel casa amarela Nº 1",
+			"payer_id" : "bb9d3de9-5b2f-4189-90da-e3b292c5e3a5",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:27:00.768Z",
+			"id" : "aec09bc8-e352-46f8-987e-cb814e7f3c73"
+		},
+		{
+			"parcela" : 1,
+			"amount" : 360000,
+			"description" : "balão",
+			"due_date" : "2022-11-24",
+			"name" : "Quadra 1 - Lote 1",
+			"payer_id" : "bb9d3de9-5b2f-4189-90da-e3b292c5e3a5",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:26:57.660Z",
+			"id" : "d9574e71-0aef-4050-a68f-238c658c3b1b"
+		},
+		{
+			"parcela" : 2,
+			"amount" : 100000,
+			"description" : "Aluguel com split",
+			"due_date" : "2022-09-24",
+			"name" : "Aluguel casa amarela Nº 2",
+			"payer_id" : "a55dd0f9-6843-49a7-8d92-54edc6604296",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:27:00.882Z",
+			"id" : "293ee356-f3ff-4f80-bc59-6131ba20b672"
+		},
+		{
+			"parcela" : 3,
+			"amount" : 100000,
+			"description" : "Aluguel com split",
+			"due_date" : "2022-10-24",
+			"name" : "Aluguel casa amarela Nº 2",
+			"payer_id" : "a55dd0f9-6843-49a7-8d92-54edc6604296",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:27:00.888Z",
+			"id" : "0711dce4-9ae6-4abf-8456-3fd28e872444"
+		},
+		{
+			"parcela" : 1,
+			"amount" : 360000,
+			"description" : "balão",
+			"due_date" : "2022-11-24",
+			"name" : "Quadra 1 - Lote 2",
+			"payer_id" : "a55dd0f9-6843-49a7-8d92-54edc6604296",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:26:57.703Z",
+			"id" : "72528078-3a90-4d85-86fd-fd16558399b2"
+		},
+		{
+			"parcela" : 2,
+			"amount" : 100000,
+			"description" : "Aluguel com split",
+			"due_date" : "2022-09-24",
+			"name" : "Aluguel casa amarela Nº 3",
+			"payer_id" : "55694d01-4fdd-4fe0-b4d8-afb7362145d6",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:27:00.970Z",
+			"id" : "b3a1cd62-9cfe-4a66-babe-960255f12a6c"
+		},
+		{
+			"parcela" : 3,
+			"amount" : 100000,
+			"description" : "Aluguel com split",
+			"due_date" : "2022-10-24",
+			"name" : "Aluguel casa amarela Nº 3",
+			"payer_id" : "55694d01-4fdd-4fe0-b4d8-afb7362145d6",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:27:00.977Z",
+			"id" : "1ac326e1-479d-4f02-b658-285be60dc140"
+		},
+		{
+			"parcela" : 1,
+			"amount" : 360000,
+			"description" : "balão",
+			"due_date" : "2022-11-24",
+			"name" : "Quadra 1 - Lote 3",
+			"payer_id" : "55694d01-4fdd-4fe0-b4d8-afb7362145d6",
+			"status" : "em dia",
+			"created_at" : "2022-08-24T19:26:57.762Z",
+			"id" : "fa5c2600-6645-4526-872f-eee4e9f1483d"
+		},
+		{
+			"parcela" : 1,
+			"amount" : 225000,
+			"description" : "sinal",
+			"due_date" : "2022-08-24",
+			"name" : "Quadra 1 - Lote 1",
+			"payer_id" : "bb9d3de9-5b2f-4189-90da-e3b292c5e3a5",
+			"status" : "pago",
+			"created_at" : "2022-08-24T19:26:57.648Z",
+			"id" : "867a090e-72c1-4eac-86bb-f2cbef9562af"
+		},
+		{
+			"parcela" : 1,
+			"amount" : 100000,
+			"description" : "Aluguel com split",
+			"due_date" : "2022-08-24",
+			"name" : "Aluguel casa amarela Nº 1",
+			"payer_id" : "bb9d3de9-5b2f-4189-90da-e3b292c5e3a5",
+			"status" : "pago",
+			"created_at" : "2022-08-24T19:27:00.756Z",
+			"id" : "09ef1ad1-ebf6-4e71-8f70-ed6e05084fdb"
+		},
+		{
+			"parcela" : 1,
+			"amount" : 100000,
+			"description" : "Aluguel com split",
+			"due_date" : "2022-08-24",
+			"name" : "Aluguel casa amarela Nº 2",
+			"payer_id" : "a55dd0f9-6843-49a7-8d92-54edc6604296",
+			"status" : "pago",
+			"created_at" : "2022-08-24T19:27:00.876Z",
+			"id" : "5c90d506-580d-4da4-9e3d-21864b5c5b79"
+		},
+		{
+			"parcela" : 1,
+			"amount" : 225000,
+			"description" : "sinal",
+			"due_date" : "2022-08-24",
+			"name" : "Quadra 1 - Lote 2",
+			"payer_id" : "a55dd0f9-6843-49a7-8d92-54edc6604296",
+			"status" : "pago",
+			"created_at" : "2022-08-24T19:26:57.693Z",
+			"id" : "91dcf800-0b1b-472b-8d3d-5e006ff97b65"
+		},
+		{
+			"parcela" : 1,
+			"amount" : 100000,
+			"description" : "Aluguel com split",
+			"due_date" : "2022-08-24",
+			"name" : "Aluguel casa amarela Nº 3",
+			"payer_id" : "55694d01-4fdd-4fe0-b4d8-afb7362145d6",
+			"status" : "pago",
+			"created_at" : "2022-08-24T19:27:00.964Z",
+			"id" : "63ead914-c24d-4dbe-99a1-d873e7dbe4dc"
+		},
+		{
+			"parcela" : 1,
+			"amount" : 225000,
+			"description" : "sinal",
+			"due_date" : "2022-08-24",
+			"name" : "Quadra 1 - Lote 3",
+			"payer_id" : "55694d01-4fdd-4fe0-b4d8-afb7362145d6",
+			"status" : "pago",
+			"created_at" : "2022-08-24T19:26:57.749Z",
+			"id" : "543a1b9d-60de-49c9-a40c-267ff5fcc621"
+		}
+	]
+}
+
