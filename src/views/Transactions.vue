@@ -1,33 +1,32 @@
 <template>
-  <div class=" container">
+  <div class="container">
     <div class="px-4">
-        <h2 class="text-lg leading-6 font-medium text-gray-900">Transações</h2>
+      <h2 class="text-lg leading-6 font-medium text-gray-900">Transações</h2>
     </div>
+
     <div class="mt-6 m-auto overflow-auto">
-       <TransactionTable />
+      <TransactionTable />
     </div>
   </div>
 </template>
 
 <script>
-import TransactionTable from '../components/TransactionTable.vue'
-
+import TransactionTable from "../components/TransactionTable.vue";
 export default {
-    name: "transactions",
+  name: "transactions",
 
-    components: {
-        TransactionTable,
-    }
+  components: {
+    TransactionTable,
+  },
 
+  created() {
+    this.$store.dispatch("loadTransactions");
+  },
 };
 </script>
 
-<style>
-    .container {
-        @apply bg-white pt-6 shadow rounded-md mt-14 w-min m-auto;
-    }
-
-    .div-safada {
-        border: 1px solid red;
-    }
+<style scoped>
+.container {
+  @apply bg-white pt-6 shadow rounded-md mt-14 w-min m-auto;
+}
 </style>
