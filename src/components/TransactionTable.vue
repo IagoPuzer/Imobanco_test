@@ -10,24 +10,45 @@
         <th>id do pagador</th>
         <th>status</th>
         <th>data de criação</th>
-        <th>id da transição</th>
+        <th>id da transação</th>
       </tr>
     </thead>
     <tbody
-      class="content-table bg-white divide-y divide-gray-200"
-      v-for="transaction in transactions.transactions"
-      :key="transaction"
+      class="content-table bg-white divide-y divide-gray-200 cursor-pointer"
     >
-      <tr>
-        <td><router-link to="/payerdetails">{{transaction.parcela}}</router-link></td>
-        <td><router-link to="/payerdetails">{{transaction.amount.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}}</router-link></td>
-        <td><router-link to="/payerdetails">{{transaction.description}}</router-link></td>
-        <td><router-link to="/payerdetails">{{transaction.due_date.split('-').reverse().join('/')}}</router-link></td>
-        <td><router-link to="/payerdetails">{{transaction.name}}</router-link></td>
-        <td><router-link to="/payerdetails">{{transaction.payer_id.slice(transaction.payer_id.length - 12)}}</router-link></td>
-        <td><router-link to="/payerdetails">{{transaction.status}}</router-link></td>
-        <td><router-link to="/payerdetails">{{transaction.created_at.substring(0,10).split('-').reverse().join('/')}}</router-link></td>
-        <td><router-link to="/payerdetails">{{transaction.id.slice(transaction.id.length - 12)}}</router-link></td>
+      <tr
+        v-for="transaction in transactions.transactions"
+        :key="transaction.id"
+        @click="routerPayer(transaction.payer_id)"
+      >
+        <td>{{ transaction.parcela }}</td>
+        <td>
+          {{
+            transaction.amount.toLocaleString("pt-br", {
+              style: "currency",
+              currency: "BRL",
+            })
+          }}
+        </td>
+        <td>{{ transaction.description }}</td>
+        <td>{{ transaction.due_date.split("-").reverse().join("/") }}</td>
+        <td>{{ transaction.name }}</td>
+        <td>
+          {{ transaction.payer_id.slice(transaction.payer_id.length - 12) }}
+        </td>
+        <td>{{ transaction.status }}</td>
+        <td>
+          {{
+            transaction.created_at
+              .substring(0, 10)
+              .split("-")
+              .reverse()
+              .join("/")
+          }}
+        </td>
+        <td>
+          {{ transaction.id.slice(transaction.id.length - 12) }}
+        </td>
       </tr>
     </tbody>
   </table>
@@ -35,15 +56,19 @@
 
 <script>
 import { mapState } from "vuex";
+import router from "../router";
 export default {
-
   name: "TransactionsTable",
 
-  //Chamando o array transactions onde está armazenado o JSON
-  computed: mapState(
-    ["transactions"]
-    ),
-    
+  //Chamando os dados salvos no store vuex
+  computed: mapState(["transactions"]),
+
+  //definindo a rota com o parametro payer_id
+  methods: {
+    routerPayer(payer) {
+      router.push({ path: "/payerdetails", query: { payer_id: payer } });
+    },
+  },
 };
 </script>
 
