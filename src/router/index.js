@@ -15,7 +15,7 @@ const routes =[
         component: Transactions
     },
     {
-        path: '/payerdetails/',
+        path: '/payerdetails',
         nome: 'PayerDetails',
         component: PayerDetails
     }
