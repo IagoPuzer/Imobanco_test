@@ -1,4 +1,5 @@
 import { createStore } from "vuex";
+import VuexPersistence from "vuex-persist";
 import axios from "axios";
 
 export default createStore({
@@ -8,6 +9,7 @@ export default createStore({
   },
 
   mutations: {
+    //setando os dados nas variáveis clients e transactions
     loadTransactions(state, transactions) {
       state.transactions = transactions;
     },
@@ -18,6 +20,7 @@ export default createStore({
   },
 
   actions: {
+    //Realizando a importação dos dados JSON
     loadTransactions({ commit }) {
       axios.get("../../public/env/transactions.json").then((response) => {
         commit("loadTransactions", response.data);
@@ -30,6 +33,15 @@ export default createStore({
       });
     },
   },
+
+  //pluggin que faz o salvamento dos dados no local storage para que os dados não se percam ao atualizar a pagina
+  plugins: [
+    new VuexPersistence({
+      storage: window.localStorage
+    }).plugin
+  ],
+
+  
 
   modules: {},
 });
