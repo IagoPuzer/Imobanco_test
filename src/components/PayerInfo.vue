@@ -6,7 +6,7 @@
   >
     <ul class="grid grid-rows-2 grid-flow-col gap-2">
       <li>Nome: {{ client.name }}</li>
-      <li>Documento: {{ client.document }}</li>
+      <li>Documento: {{client.document }}</li>
       <li>Telefone: {{ client.phone }}</li>
       <li>Email: {{ client.email }}</li>
       <li>
@@ -42,6 +42,17 @@ export default {
       );
     }
   },
+
+  //Tentativa para o tratamento do campo documento
+  // methods: {
+  //   formatCpfCnpj(){
+  //     const cpfCnpj = this.client_info.document.replace(/\D/g, '')
+  //     if(cpfCnpj.length == 11) {
+  //       return cnpjCpf.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/g, "\$1.\$2.\$3-\$4");
+  //     }
+  //     return cnpjCpf.replace(/(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/g, "\$1.\$2.\$3/\$4-\$5");
+  //   }
+  // },
 };
 </script>
 
