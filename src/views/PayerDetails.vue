@@ -1,35 +1,26 @@
 <template>
   <div class="container">
-    
     <div>
-      <h4>
-        Informações do cliente
-      </h4>
+      <h4>Informações do cliente</h4>
     </div>
-    
+
     <div class="p-10 border m-4 shadow">
       <PayerInfo />
     </div>
-    
-    
+
     <div>
-      <h4>
-        Transações do cliente
-      </h4>
+      <h4>Transações do cliente</h4>
     </div>
-    
+
     <div class="mt-6 m-auto overflow-auto w-full">
       <PayerTable />
     </div>
-    
   </div>
-
 </template>
 
 <script>
-
-import PayerInfo from '../components/PayerInfo.vue'
-import PayerTable from '../components/PayerTable.vue'
+import PayerInfo from "../components/PayerInfo.vue";
+import PayerTable from "../components/PayerTable.vue";
 
 export default {
   name: "payerdetails",
@@ -39,19 +30,19 @@ export default {
     PayerInfo,
   },
 
-  created(){
-    this.$store.dispatch('loadClients')
-    }
+  //renderizando os dados do JSON clients
+  created() {
+    this.$store.dispatch("loadClients");
+  },
 };
 </script>
 
 <style scoped>
-  .container {
-    @apply bg-white pt-6 shadow rounded-md mt-14 w-min m-auto;
-  }
+.container {
+  @apply bg-white pt-6 shadow rounded-md mt-14 w-min m-auto;
+}
 
-  .container h4 {
-    @apply text-lg leading-6 font-medium text-gray-900;
-  }
-
+.container h4 {
+  @apply text-lg leading-6 font-medium text-gray-900;
+}
 </style>

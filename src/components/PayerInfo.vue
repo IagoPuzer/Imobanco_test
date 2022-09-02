@@ -6,7 +6,7 @@
   >
     <ul class="grid grid-rows-2 grid-flow-col gap-2">
       <li>Nome: {{ client.name }}</li>
-      <li>Documento: {{ client.document}}</li>
+      <li>Documento: {{ client.document }}</li>
       <li>Telefone: {{ client.phone }}</li>
       <li>Email: {{ client.email }}</li>
       <li>
@@ -23,16 +23,17 @@ import { mapState } from "vuex";
 export default {
   name: "payerinfo",
 
+  //leitura dos dados vindo do store
   computed: mapState(["clients"]),
 
   data() {
     return {
       id: "",
       client_info: [],
-      
     };
   },
 
+  //tratamento para que seja realizado a leitura dos dados de acordo com o id específico do cliente. Utilizando query params.
   mounted() {
     if (this.$route.query.payer_id) {
       this.id = this.$route.query.payer_id;
@@ -40,16 +41,6 @@ export default {
         (item) => item.id == this.id
       );
     }
-  },
-
-  methods: {
-    validatorCpfCnpj(){
-      if(this.clients.client_clients.document == 11){  
-        return this.clients.client_clients.document?.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/g, "$1.$2.$3-$4")
-      } else{
-        return this.clients.client_clients.document?.replace(/(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/g, "$1.$2.$3/$4-$5")
-      }
-    },
   },
 };
 </script>
