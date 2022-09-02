@@ -1,21 +1,24 @@
 <template>
   <div class="container">
     
-    <div class="ml-2">
+    <div>
       <h4>
-        Informações do cliente:
+        Informações do cliente
       </h4>
     </div>
     
-    <PayerInfo />
+    <div class="p-10 border m-4 shadow">
+      <PayerInfo />
+    </div>
     
-    <div class="ml-2">
+    
+    <div>
       <h4>
-        Transações do cliente:
+        Transações do cliente
       </h4>
     </div>
     
-    <div class="mt-6 m-auto overflow-auto">
+    <div class="mt-6 m-auto overflow-auto w-full">
       <PayerTable />
     </div>
     
@@ -32,8 +35,8 @@ export default {
   name: "payerdetails",
 
   components: {
-    PayerInfo,
     PayerTable,
+    PayerInfo,
   },
 
   created(){
@@ -48,7 +51,7 @@ export default {
   }
 
   .container h4 {
-    @apply text-lg leading-6 font-medium text-gray-900
+    @apply text-lg leading-6 font-medium text-gray-900;
   }
 
 </style>

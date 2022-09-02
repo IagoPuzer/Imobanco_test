@@ -1,6 +1,6 @@
 <template>
-   <div class="text-container">
-      <h1 class="title-home" >Imobanco</h1>
+   <div class="container">
+      <img src="../assets/imobanco-logo-branco.png" alt="">
       <p class="text-home">O seu banco digital</p>
    </div>
 </template>
@@ -13,19 +13,13 @@
 </script>
 
 <style>
-.text-container {
-   @apply  md:flex  md:items-center md:justify-center flex-col mt-44;
-}
-
-.title-home {
-   @apply  text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-slate-100 to-cyan-200;
+.container {
+   @apply md:flex  md:items-center md:justify-center flex-col mt-44 mx-auto;
 }
 
 .text-home {
    @apply  text-2xl mt-10 text-slate-200;
 }
-
-
 
 </style>
 
