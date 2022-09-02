@@ -4,8 +4,13 @@
 
 
 <h2>Descrição do projeto:<h2>
-Projeto desenvolvido para a realização do teste prático para vaga de Desenvolvedor Front-end Jr da empresa Imobanco.<br><br>
-O projeto tem o intuito de renderizar em tela uma série de transações realizadas por clientes, e posterior a isso, visualizar as informações de cada cliente e as transações realizadas pelos mesmos.
+<p>Projeto desenvolvido para a realização do teste prático para vaga de Desenvolvedor Front-end Jr da empresa Imobanco.<br><br>
+O projeto tem o intuito de renderizar em tela uma série de transações realizadas por clientes, e posterior a isso, visualizar as informações de cada cliente e as transações realizadas pelos mesmos.</p>
+
+<p align="center">
+ <img src="./src/assets/apresentacao.gif">
+</p>
+
 
 ## :hammer: Funcionalidades do projeto
 
