@@ -15,7 +15,7 @@ export default {
 
 <style scoped>
   .nav-container {
-    @apply  p-5 shadow md:flex md:items-center md:justify-center text-zinc-100 text-lg; 
+    @apply  p-5 shadow md:flex md:items-center md:justify-center text-zinc-100 text-lg;
   }
 
   .content-nav {
