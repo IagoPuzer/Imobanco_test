@@ -1,10 +1,10 @@
 <template>
   <div
-    class="payer-details mt-4 ml-2"
+    class="payer-details"
     v-for="client in this.client_info"
     :key="client.id"
   >
-    <ul class="grid grid-rows-2 grid-flow-col gap-2">
+    <ul>
       <li>Nome: {{ client.name }}</li>
       <li>Documento: {{client.document }}</li>
       <li>Telefone: {{ client.phone }}</li>
@@ -57,7 +57,12 @@ export default {
 </script>
 
 <style scoped>
+.payer-details ul {
+  @apply grid grid-rows-2 grid-flow-col gap-2
+}
+
 .payer-details li {
   @apply px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider;
 }
+
 </style>

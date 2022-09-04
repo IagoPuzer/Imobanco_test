@@ -1,10 +1,11 @@
 <template>
   <div class="container">
-    <div class="px-4">
-      <h2 class="text-lg leading-6 font-medium text-gray-900">Transações</h2>
+    
+    <div>
+      <h4>Transações</h4>
     </div>
 
-    <div class="mt-6 m-auto overflow-auto w-full">
+    <div class="transactionTable-container">
       <TransactionTable />
     </div>
   </div>
@@ -19,7 +20,7 @@ export default {
     TransactionTable,
   },
 
-  //Renderizando os dados do JSON transactions
+  //renderizando os dados vindos do vuex quando a pagina é criada
   created() {
     this.$store.dispatch("loadTransactions");
   },
@@ -29,5 +30,13 @@ export default {
 <style scoped>
 .container {
   @apply bg-white pt-6 shadow rounded-md mt-14 w-min mx-auto mb-10;
+}
+
+.container h4{
+  @apply text-lg leading-6 font-medium text-gray-900
+}
+
+.transactionTable-container {
+  @apply  mt-6 m-auto overflow-auto w-full
 }
 </style>

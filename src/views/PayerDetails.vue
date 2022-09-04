@@ -1,10 +1,11 @@
 <template>
   <div class="container">
+    
     <div>
       <h4>Informações do cliente</h4>
     </div>
 
-    <div class="p-10 border m-4 shadow">
+    <div class="payerInfo-container">
       <PayerInfo />
     </div>
 
@@ -12,7 +13,7 @@
       <h4>Transações do cliente</h4>
     </div>
 
-    <div class="mt-6 m-auto overflow-auto w-full">
+    <div class="payerTable-container">
       <PayerTable />
     </div>
   </div>
@@ -30,7 +31,7 @@ export default {
     PayerInfo,
   },
 
-  //renderizando os dados do JSON clients
+  //renderizando os dados vindos do vuex quando a pagina é criada
   created() {
     this.$store.dispatch("loadClients");
   },
@@ -45,4 +46,14 @@ export default {
 .container h4 {
   @apply text-lg leading-6 font-medium text-gray-900;
 }
+
+.payerInfo-container {
+  @apply  p-10 border m-4 shadow;
+}
+
+.payerTable-container {
+  @apply  mt-6 m-auto overflow-auto w-full;
+}
+
+
 </style>

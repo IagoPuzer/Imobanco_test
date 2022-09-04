@@ -1,6 +1,6 @@
 <template>
-  <table class="w-full divide-y divide-gray-200 table-auto">
-    <thead class="title-table bg-gray-200">
+  <table class="table-container">
+    <thead class="content-thead bg-gray-200">
       <tr>
         <th>parcela</th>
         <th>valor</th>
@@ -13,7 +13,7 @@
         <th>id da transação</th>
       </tr>
     </thead>
-    <tbody class="content-table bg-white divide-y divide-gray-200">
+    <tbody class="content-tbody ">
       <tr v-for="transaction in this.client_transactions" :key="transaction.id">
         <td>{{ transaction.parcela }}</td>
         <td>
@@ -75,10 +75,17 @@ export default {
 </script>
 
 <style scoped>
-.title-table th {
+
+.table-container {
+  @apply  w-full divide-y divide-gray-200 table-auto
+}
+.content-thead th {
   @apply px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider;
 }
-.content-table td {
+.content-tbody {
+  @apply bg-white divide-y divide-gray-200
+}
+.content-tbody td {
   @apply px-6 py-3 text-sm font-medium text-gray-900 whitespace-nowrap;
 }
 </style>
